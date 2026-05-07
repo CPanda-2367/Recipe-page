@@ -25,9 +25,9 @@ section{
     margin-bottom: 30px;
 }
 #preparation{
-    background-color: hsl(30, 18%, 87%);
-    padding: 20px;
-    border-radius: 3%;
+    background-color: hsl(330, 100%, 98%);
+    padding:5px 28px 14px 28px;
+    border-radius: 15px;
 }
 #preparation h2{
     font-family: 'Outfit', sans-serif;
@@ -43,17 +43,24 @@ strong{
     
     font-weight: 600;
 }
-/* li{
-    margin-bottom: 10px;
-    padding-left: 10px;
-    list-style-position: inside;
-    text-indent: -45px;
-} */
+
 ol,ul{
     padding-left: 20px;}
 li{
     list-style-position: outside;
-    padding-left:15px;
+    padding-left:13px;
     margin-bottom: 10px;
 }
-   
+ul li::marker{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    list-style-type:none
+}
+#preparation ul li::marker{
+    font-weight: 600;
+}
+
+ol li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
